@@ -1,3 +1,5 @@
+require File.dirname(__FILE__) + "/helper"
+
 describe "a syslog packet" do
   
   @p = SyslogProto::Packet.new

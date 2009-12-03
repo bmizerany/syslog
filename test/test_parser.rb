@@ -1,3 +1,5 @@
+require File.dirname(__FILE__) + "/helper"
+
 describe "syslog packet parser" do
   
   it "parse some valid packets" do

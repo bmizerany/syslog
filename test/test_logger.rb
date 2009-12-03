@@ -1,3 +1,5 @@
+require File.dirname(__FILE__) + "/helper"
+
 describe "syslog logger" do
   
   it "create a new logger with hostname and facility" do
